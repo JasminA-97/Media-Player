@@ -12,7 +12,7 @@ console.log(videoDetails);
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
   const getEmbedURL=(link)=>{
-// https://www.youtube.com/embed/Ry5K3LmtUL8
+    // https://www.youtube.com/embed/Ry5K3LmtUL8
 console.log(link);
     // https://www.youtube.com/watch?v=Ry5K3LmtUL8
   if(link.includes('v=')){
